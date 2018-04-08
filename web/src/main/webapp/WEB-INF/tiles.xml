@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+        "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+        "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+
+    <definition name="default" template="/WEB-INF/views/layouts/default.jsp">
+        <put-attribute name="header" value="/WEB-INF/views/common/header.jsp"/>
+        <put-attribute name="body" value="/WEB-INF/views/common/body.jsp"/>
+        <put-attribute name="content" value=""/>
+        <put-attribute name="footer" value="/WEB-INF/views/common/footer.jsp"/>
+    </definition>
+
+    <definition name="homePage" extends="default">
+        <put-attribute name="content" value="/WEB-INF/views/main/homePage.jsp"/>
+    </definition>
+
+    <definition name="contacts" extends="default">
+        <put-attribute name="body" value=""/>
+        <put-attribute name="content" value="/WEB-INF/views/main/contacts.jsp"/>
+    </definition>
+
+    <definition name="signup" extends="default">
+        <put-attribute name="body" value=""/>
+        <put-attribute name="content" value="/WEB-INF/views/main/signup.jsp"/>
+    </definition>
+
+    <definition name="login" extends="default">
+        <put-attribute name="body" value=""/>
+        <put-attribute name="content" value="/WEB-INF/views/main/login.jsp"/>
+    </definition>
+
+    <definition name="index" extends="default">
+        <put-attribute name="body" value=""/>
+        <put-attribute name="content" value="/WEB-INF/views/main/index.jsp"/>
+    </definition>
+
+    <definition name="showusers" extends="default">
+        <put-attribute name="body" value=""/>
+        <put-attribute name="content" value="/WEB-INF/views/main/showusers.jsp"/>
+    </definition>
+
+    <definition name="advert" extends="default">
+        <put-attribute name="body" value=""/>
+        <put-attribute name="content" value="/WEB-INF/views/main/advert.jsp"/>
+    </definition>
+
+</tiles-definitions>
