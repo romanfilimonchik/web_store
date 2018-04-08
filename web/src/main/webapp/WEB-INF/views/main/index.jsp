@@ -35,7 +35,7 @@
                 <td> ${advert.color}</td>
                 <td> ${advert.description}</td>
                 <td> ${advert.style}</td>
-                <td> ${advert.user_id}</td>
+                <%--<td> ${advert.user_id}</td>--%>
             </tr>
             </tbody>
         </c:forEach>

@@ -26,10 +26,10 @@ public class IndexController {
     @RequestMapping(value = "/index")
     public String indexPage(Model model) {
 
-//        List<Advert> adverts = advertService.getAll();
-//        logger.error("Adverts: " + adverts);
-//        model.addAttribute("users", adverts);
-//        logger.error("ModelAttribute: " + adverts);
+        List<Advert> adverts = advertService.getAll();
+        logger.error("Adverts: " + adverts);
+        model.addAttribute("adverts", adverts);
+        logger.error("ModelAttribute: " + adverts);
 
         return "index";
     }

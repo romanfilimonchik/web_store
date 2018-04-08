@@ -12,9 +12,23 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
+
+<div>
+    <section class="jumbotron text-center">
+        <div class="container">
+            <h1 class="jumbotron-heading">Welcome to auto sales world.</h1>
+            <p class="lead text-muted">Around 3000 adverts and 1000 active users. Join to us.</p>
+            <p>
+                <a href="#" class="btn btn-primary">Main call to action</a>
+                <a href="#" class="btn btn-secondary">Secondary action</a>
+            </p>
+        </div>
+    </section>
+</div>
+
 <div class="container">
-    <h3>Welcome to auto sales world.</h3>
-    <p>Around 3000 adverts and 1000 active users. Join to us.</p>
+
+    <h3 class="subtitle text-center"> Please, select car body style.</h3>
 
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
         <!-- Indicators -->
@@ -63,7 +77,7 @@
             <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
         </a>
-    </div>
+</div>
 </div>
 </body>
 </html>
